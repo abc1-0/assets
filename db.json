@@ -1,0 +1,22 @@
+[
+        {
+            "id":0,
+            "name":"Loading",
+            "image":"https://abc1-0.github.io/assets/images/0.png"
+        },
+        {
+            "id":1,
+            "name":"Loading 1",
+            "image":"https://abc1-0.github.io/assets/images/0.png"
+        },
+        {
+            "id":2,
+            "name":"Loading 2",
+            "image":"https://abc1-0.github.io/assets/images/0.png"
+        },
+        {
+            "id":3,
+            "name":"Loading 3",
+            "image":"https://abc1-0.github.io/assets/images/0.png"
+        }
+    ]
