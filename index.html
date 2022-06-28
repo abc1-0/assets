@@ -1,8 +1,27 @@
-<html>
-    <head>
-        <title>Touch Images</title>
-    </head>
-    <body>
-        <p>[{"Message":"Success!"}]</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assets Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-indigo-400 py-12">Riri Shop || Mounts</h1>
+        <table class="min-w-full divide-y divide-gray-200 text-center">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="text-center px-6 py-3 text-left text-l font-medium text-gray-500 uppercase tracking-wider">Pcs</th>
+                    <th class="text-center px-6 py-3 text-left text-l font-medium text-gray-500 uppercase tracking-wider">Item Name</th>
+                    <th class="text-center px-6 py-3 text-left text-l font-medium text-gray-500 uppercase tracking-wider">Price (PHP)</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200" id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
 </html>
